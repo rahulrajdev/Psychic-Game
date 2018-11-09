@@ -1,0 +1,20 @@
+/* changing background image */
+body {
+    background-image: url(https://i.ytimg.com/vi/gxxqdrrpgZc/maxresdefault.jpg);
+}
+
+/* moving main card down on the page and adding some transparency */
+.card {
+    margin-top: 20%;
+    opacity: 0.8;  
+}
+
+/* aligning all text within card center */
+.card-body {
+    text-align: center;
+}
+
+/* adding space betweeen paragraph elements for aesthetic appeal */
+p {
+    line-height: 50px;
+}

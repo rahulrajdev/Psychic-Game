@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Psychic Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <script src="assets/javascript/game.js"></script>
+</head>
+<body>
+
+    <!-- using bootstrap to create a central card to hold all HTML elements-->
+    <div class="container">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-body">
+                        
+                        <!-- title text -->
+                        <h5 class="card-title">The Psychic Word Guess Game</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Type What Letter I'm Thinking Of...I Doubt You Can...</h6>
+                        
+                        <!-- paragraph elements with ids that JavaScript manipulates-->
+                        <p class="card-text" id="wins">Wins: </p>
+                        <p class="card-text" id="losses">Losses: </p>
+                        <p class="card-text" id="guessesLeft">Guesses Left:</p>
+                        <p class="card-text" id="lettersGuessed">Letters Guessed: </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+
+    <!-- creating respective paragraph elements that innerHTML will be manipulated by JavaScript-->
+</body>
+</html>
